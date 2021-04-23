@@ -12,38 +12,38 @@
 
 
 
-# # alacrity
-# echo ''
-# echo '-----------------Installing alacritty-----------------'
-# echo ''
-# add-apt-repository --yes  ppa:aslatter/ppa 
-# apt install alacritty
+# alacrity
+echo ''
+echo '-----------------Installing alacritty-----------------'
+echo ''
+add-apt-repository --yes  ppa:aslatter/ppa 
+apt install alacritty
 
 
-# # snap store 
-# echo ''
-# echo '-----------------Installing snap store-----------------'
-# echo ''
-# apt install snap
+# snap store 
+echo ''
+echo '-----------------Installing snap store-----------------'
+echo ''
+apt install snap
 
-# # vscode
-# echo ''
-# echo '-----------------Installing vscode---------------------'
-# echo ''
-# snap install --classic code 
+# vscode
+echo ''
+echo '-----------------Installing vscode---------------------'
+echo ''
+snap install --classic code 
 
-# # git
-# echo ''
-# echo '-----------------Installing git------------------------'
-# echo ''
-# apt -y -qq install git-all
+# git
+echo ''
+echo '-----------------Installing git------------------------'
+echo ''
+apt -y -qq install git-all
 
+# pip3
+echo ''
+echo '-----------------Installing pip3------------------------'
+echo ''
+apt-get install -qq python3-pip  -y
 
-# apt-get -y update && apt-get upgrade
-
-cd ..
-mkdir Apps
-cd Apps
-
-chmod +x apps.sh
+# upgrade packages
+apt-get -y update && apt-get upgrade
 
