@@ -17,14 +17,14 @@ echo ''
 echo '-----------------Installing alacritty-----------------'
 echo ''
 add-apt-repository --yes  ppa:aslatter/ppa 
-apt install alacritty
+apt-get install alacritty -y
 
 
 # snap store 
 echo ''
 echo '-----------------Installing snap store-----------------'
 echo ''
-apt install snap
+apt-get install snap -y
 
 # vscode
 echo ''
@@ -36,7 +36,7 @@ snap install --classic code
 echo ''
 echo '-----------------Installing git------------------------'
 echo ''
-apt -y -qq install git-all
+apt-get -y -qq install git-all -y
 
 # pip3
 echo ''
