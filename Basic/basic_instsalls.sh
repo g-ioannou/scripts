@@ -14,12 +14,9 @@
 
 # alacrity
 echo ''
-echo '-----------------Installing alacritty-----------------'
+echo '-----------------Installing kitty-----------------'
 echo ''
-add-apt-repository --yes  ppa:aslatter/ppa 
-apt-get install alacritty -y
-
-
+apt-get install kitty -y
 # snap store 
 echo ''
 echo '-----------------Installing snap store-----------------'

@@ -54,4 +54,11 @@ echo '----------Installing pyspark------------'
 echo ''
 pip3 install pyspark
 
+# configuring paths
+echo 'SPARK_HOME="/usr/local/spark/spark-3.1.1-bin-hadoop2.7'>> .bashrc
+echo 'PATH=${PATH}:$SPARK_HOME/bin'>> .bashrc
+echo 'PYSPARK_PYTHON="/usr/bin/python3"'>> .bashrc
+echo 'PYSPARK_DRIVER_PYTHON="/usr/bin/python3"'>> .bashrc
+source .bashrc
 echo 'Done.'
+
